@@ -28,3 +28,7 @@ docker run -d --restart=always -p 2222:2222 -e REMOTE_HOST=example.com -e REMOTE
 ```
 
 Just that simple. No overhead configuration.
+
+## License
+
+[MIT](https://github.com/Zhwt/fast-local-forward/blob/master/LICENSE)
