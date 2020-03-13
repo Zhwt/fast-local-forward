@@ -29,6 +29,10 @@ docker run -d --restart=always -p 2222:2222 -e REMOTE_HOST=example.com -e REMOTE
 
 Just that simple. No overhead configuration.
 
+## Motivation
+
+Initially I just want a small port forwarding utility. But after some search on Google, I found out that almost everyone is suggesting using iptables or ssh, and all of them needs many configuration. So I decided to start my own "SSH version" local port forward tool using Docker. But after I pushed this image on to Docker Hub, I found out that there are already many similar images. Very impressive lesson for "how to search effectively".
+
 ## License
 
 [MIT](https://github.com/Zhwt/fast-local-forward/blob/master/LICENSE)
