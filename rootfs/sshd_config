@@ -1,0 +1,7 @@
+ListenAddress 127.0.0.1
+Port 22
+PasswordAuthentication yes
+ChallengeResponseAuthentication no
+PubkeyAuthentication no
+PermitRootLogin yes
+AllowTcpForwarding yes
